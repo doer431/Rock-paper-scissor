@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rock paper scissor game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Rock Paper Scissor Game</h1>
+    <div class="result">
+        <p>You: <span id="user-result">0</span></p>
+        <p>Computer: <span id="computer-result">0</span></p>
+    </div>  
+    <div class="msg"> START THE GAME!</div>
+    <div class="container">
+        <div class="computer-choise">
+            <div class="com "  >
+                 <p >COMPUTER:</p>
+            </div>
+            <div class="com-choises-1" id="computer-choise" style="background-color: rgba(0, 0, 255, 0.28);"> 
+                <div class="com-choise"  >
+                    <img src="images/rock.png" id="com-rock" class="com-rock" alt="rock">
+                </div>
+                <div class="com-choise" >
+                    <img src="images/paper.png" id="com-paper" alt="paper">
+                </div>
+                <div class="com-choise" >
+                    <img src="images/scissor.jpg    " id="com-scissor" alt="scissor">
+                </div>
+            </div>
+        </div>
+        <div class="user-choise">
+            <div class="com">
+                <p>YOU:</p>
+            </div>
+            <div class="choises" id="user-choise" style="background-color: rgba(172, 255, 47, 0.307);">
+                <div class="choise" id="rock">
+                    <img src="images/rock.png" alt="rock">
+                </div>
+                <div class="choise" id="paper">
+                    <img src="images/paper.png" alt="paper">
+                </div>
+                <div class="choise" id="scissor">
+                    <img src="images/scissor.jpg" alt="scissor">
+                </div>
+            </div>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
