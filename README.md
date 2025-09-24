@@ -69,6 +69,4 @@ This project was built as a practice exercise to strengthen **JavaScript fundame
 
 ---
 
-## 📜 License
 
-This project is open-source and available under the **MIT License**.
